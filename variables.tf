@@ -1,13 +1,13 @@
 variable "nsx_ip" {
-  default = "nsxt-mgr.acme.com"
+  description = "NSX Manager FQDN or IP"
 }
 
 variable "nsx_user" {
-  default = "admin"
+  description = "NSX Manager user"
 }
 
 variable "nsx_password" {
-  default = "txu@mvR7wh8y"
+  description = "NSX Manager password"
 }
 
 # Segment Names
